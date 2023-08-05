@@ -1,0 +1,12 @@
+.className {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Aldrich';
+}
+
+.plug {
+    font-size: 60px;
+    color: #ffffff;
+}

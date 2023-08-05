@@ -1,0 +1,39 @@
+.worksContainer__examples {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+    overflow: auto;
+    height: 100%;
+}
+
+.worksContainer__examples::-webkit-scrollbar {
+    max-width: 7px;
+    border-radius: 5px;
+    background-color: #1FA184;
+}
+
+.worksContainer__examples::-webkit-scrollbar-thumb {
+    background-color: #292929;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+.worksContainer__examples::-webkit-scrollbar-thumb:hover {
+    background-color: #1FA184;
+}
+
+.worksContainer__example {
+    width: 33%;
+    height: 150px;
+    position: relative;
+}
+
+.worksContainer__example:hover .darkBack {
+    display: block;
+    cursor: pointer;
+}
+.plug {
+    font-size: 60px;
+    color: #ffffff;
+}

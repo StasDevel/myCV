@@ -1,0 +1,21 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Aldrich','Permanent Marker', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./img/background/background.png) ;
+  background-size: no-repeat;
+  font-family: sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+

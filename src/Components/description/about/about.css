@@ -1,0 +1,39 @@
+.about {
+    font-family: 'Aldrich';
+}
+
+.about__header, .about__intro, .about__story {
+    color: #ffffff
+}
+
+.about__header {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.about__intro {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about__story {
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+   .about-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+   }
+
+   .about__header {
+    margin-bottom: 20px;
+   }
+
+    .about__intro {
+    margin-bottom: 15px;
+    }
+}
